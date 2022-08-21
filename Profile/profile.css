@@ -28,7 +28,7 @@ body {
 }
 .container .left_Side {
     position: relative;
-    background: #135c4a;
+    background: #03d1b9;
     padding: 40px;
 }
 .profileText
@@ -57,7 +57,7 @@ body {
     object-fit: cover;
 }
 .profileText h2{
-    color: white;
+    color: black;
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -73,7 +73,7 @@ body {
     padding-top: 40px;
 }
 .title {
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -92,10 +92,10 @@ body {
     display: inline-block;
     width: 20px;
     font-size: 18px;
-    color: #250755;
+    color: black;
 }
 .contactInfo ul li span {
-    color: white;
+    color: black;
     font-weight: 300;
 }
 .contactInfo.education li {
@@ -103,15 +103,15 @@ body {
 
 }
 .contactInfo.education h5 {
-    color: #27045f;
+    color: black;
     font-weight: 500;
 }
 .contactInfo.education h4:nth-child(2) {
-    color:white;
+    color:black;
     font-weight: 500;
 }
 .contactInfo.education h4{
-    color:white;
+    color:black;
     font-weight: 200;
 }
 .contactInfo.language .percent {
@@ -129,7 +129,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    background:#250755;
+    background:black;
 } 
 
  /*---------------------------------------------------------*/
@@ -146,7 +146,7 @@ body {
     margin-bottom: 0;
 }
 .title2 {
-    color: #250755;
+    color: black;
     text-transform: uppercase;
     letter-spacing:  1px;
     margin-bottom: 10px;
@@ -168,7 +168,7 @@ body {
 
 .about .box .text h4 {
     text-transform: uppercase;
-    color:  #250755;
+    color:  black;
     font-size: 18px;
 }
  .skills .box {
@@ -197,7 +197,7 @@ body {
     left: 0;
     top: 0;
     height: 100%;
-    background: #8764c0;
+    background: #03d1b9;
     
 
 }
@@ -205,6 +205,11 @@ body {
     .container {
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:460px) {
+    .about .box{
+        display: block;
     }
 }
 
